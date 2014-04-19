@@ -35,7 +35,6 @@ describe "User pages" do
 
         it { should have_title('Sign up') }
         it { should have_content('error') }
-        it { should have_content('empty') }
       end
     end
 
