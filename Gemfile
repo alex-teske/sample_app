@@ -45,6 +45,9 @@ gem 'jbuilder', '~> 2.0'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
